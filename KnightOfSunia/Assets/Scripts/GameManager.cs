@@ -7,7 +7,21 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     public string sceneName;
+
+    private void Awake()
+    {
+        if (GameManager.instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
