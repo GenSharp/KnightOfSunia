@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public PlayerState currentState;
     public float speed;
-    private Rigidbody2D myRigidBody;
+    private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
 
@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
-        myRigidBody = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
         //animator.SetFloat("moveX", 0);
         //animator.SetFloat("moveY", -1);
     }
@@ -73,6 +73,6 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         change.Normalize();
-        myRigidBody.MovePosition(transform.position + change * speed * Time.fixedDeltaTime);
+        myRigidbody.MovePosition(transform.position + change * speed * Time.fixedDeltaTime);
     }
 }
