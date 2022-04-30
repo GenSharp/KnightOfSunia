@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f9a4080ae965ef448d12fba7d67eb0c
+guid: 1af11daa45ccd8a468cd8e0ec15ca4ad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knight_animation_0
+      name: knight_animation (1)_0
       rect:
         serializedVersion: 2
         x: 4
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1737b33ba12b95042814e85158e31f68
-      internalID: 82678176
+      spriteID: e7cacb7ca9a6cdd478858255a85a6df1
+      internalID: -425110843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_animation_1
+      name: knight_animation (1)_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 34
         y: 30
-        width: 18
-        height: 28
+        width: 19
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3993b8f3d02fdfb44af21ea203ba3f7c
-      internalID: 838508334
+      spriteID: bb0ab047f3ead704987d547ab0aa5c69
+      internalID: 638777918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_animation_2
+      name: knight_animation (1)_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 17
-        height: 27
+        x: 64
+        y: 30
+        width: 19
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1d30ea387658044cb348d40340125c4
-      internalID: -914338021
+      spriteID: afcf34c8f37f22742838b3d465942050
+      internalID: 849147641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_animation (1)_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f3102c50ed0764b8cbf60e8d3302ca
+      internalID: 253747317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_animation (1)_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb58337eb27844e81236b3cec90204
+      internalID: -650271263
       vertices: []
       indices: 
       edges: []
@@ -177,9 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight_animation_1: 838508334
-      knight_animation_0: 82678176
-      knight_animation_2: -914338021
+      knight_animation (1)_4: -650271263
+      knight_animation (1)_3: 253747317
+      knight_animation (1)_1: 638777918
+      knight_animation (1)_0: -425110843
+      knight_animation (1)_2: 849147641
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
