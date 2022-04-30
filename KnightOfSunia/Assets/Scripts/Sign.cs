@@ -7,7 +7,7 @@ using TMPro;
 public class Sign : MonoBehaviour
 {
     public GameObject dialogBox;
-    public TextMeshPro dialogText;
+    public TextMeshProUGUI dialogText;
     public string dialog;
     public bool playerInRange;
 
