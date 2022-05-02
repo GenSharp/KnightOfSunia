@@ -60,13 +60,13 @@ public class PlayerMovement : MonoBehaviour
         if (change != Vector3.zero)
         {
             MoveCharacter();
-            //animator.SetFloat("moveX", change.x);
-            //animator.SetFloat("moveY", change.y);
-            //animator.SetBool("moving", true);
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("moving", true);
         }
         else
         {
-            //animator.SetBool("moving", false);
+            animator.SetBool("moving", false);
         }
     }
 
