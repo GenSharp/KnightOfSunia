@@ -16,7 +16,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isPaused = false;
         pause.SetActive(false);
+        usingPause = false;
     }
 
     // Update is called once per frame
