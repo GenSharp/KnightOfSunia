@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
+    public static int health;
+
     // Start is called before the first frame update
     void Start()
     {
