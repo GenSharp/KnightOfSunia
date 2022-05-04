@@ -9,7 +9,7 @@ public enum PlayerState
     interact
 }
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
 
     public PlayerState currentState;
@@ -42,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
         {
             UpdateAnimationAndMove();
         }
-        
     }
 
     private IEnumerator AttackCo()

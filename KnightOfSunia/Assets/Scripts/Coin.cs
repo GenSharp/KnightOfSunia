@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour //treba ovo staviti na Powerup kad budem imao
+public class Coin : MonoBehaviour
 {
-
-    //public Inventory playerInventory;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +20,7 @@ public class Coin : MonoBehaviour //treba ovo staviti na Powerup kad budem imao
     {
         if (collision.CompareTag("Player") && !collision.isTrigger)
         {
-            //playerInventory.coins += 1;
-            //powerupSignal.Raise();
+            //Score.coins += 1;
             Destroy(this.gameObject);
         }
     }

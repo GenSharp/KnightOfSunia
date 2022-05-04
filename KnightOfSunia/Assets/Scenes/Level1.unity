@@ -248,7 +248,7 @@ MonoBehaviour:
   enemyName: Gobo the Goblin
   baseAttack: 1
   moveSpeed: 1.5
-  target: {fileID: 0}
+  target: {fileID: 1004699474}
   chaseRadius: 4
   attackRadius: 1.2
   homePosition: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 1004699472}
   - component: {fileID: 1004699478}
   - component: {fileID: 1004699477}
-  - component: {fileID: 1004699476}
+  - component: {fileID: 1004699479}
   - component: {fileID: 1004699475}
   m_Layer: 0
   m_Name: Player
@@ -920,20 +920,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 0
   knockTime: 0
---- !u!114 &1004699476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004699471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9505c8abd2e524140bb3c47ba07249cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
-  speed: 4
 --- !u!50 &1004699477
 Rigidbody2D:
   serializedVersion: 4
@@ -981,6 +967,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 1.8125}
   m_EdgeRadius: 0
+--- !u!114 &1004699479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004699471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0197dcfe04ebd34386bf5f6630ae077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  speed: 4
 --- !u!1 &1193187866
 GameObject:
   m_ObjectHideFlags: 0
