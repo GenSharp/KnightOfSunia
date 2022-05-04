@@ -7,41 +7,57 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+
+    public GameObject pause;
+    private bool isPaused;
+    public bool usingPause;
     public static GameManager instance;
-    public string sceneName;
-
-    private void Awake()
-    {
-        if (GameManager.instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        pause.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ChangePause();
+        }
     }
 
-    public void SceneTransition()
+    public void PlayGame()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Level1");
     }
 
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quitting...");
+    }
+
+    public void ChangePause()
+    {
+        isPaused = !isPaused;
+        if (isPaused)
+        {
+            pause.SetActive(true);
+            Time.timeScale = 0f;
+            usingPause = true;
+        }
+
+        else
+        {
+            pause.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void QuitToMain()
+    {
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
     }
 }

@@ -1034,7 +1034,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2109018190}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: SceneTransition
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1778,4 +1778,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68cd1a5cf45971640b09e2b3e5adbebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1
+  pause: {fileID: 0}
+  usingPause: 0

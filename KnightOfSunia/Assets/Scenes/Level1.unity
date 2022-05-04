@@ -630,7 +630,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 882274022}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: QuitToMain
         m_Mode: 1
         m_Arguments:
@@ -791,12 +791,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 882274017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bee132c9c05575f4096dc1df35f308d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 68cd1a5cf45971640b09e2b3e5adbebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pause: {fileID: 2131288880}
   usingPause: 0
-  mainMenu: MainMenu
 --- !u!1 &1004699471
 GameObject:
   m_ObjectHideFlags: 0
