@@ -18,9 +18,9 @@ public class Coin : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !collision.isTrigger)
+        if (collision.gameObject.tag == "Player")
         {
-            //Score.coins += 1;
+            Quest.coinCounter++;
             Destroy(this.gameObject);
         }
     }
