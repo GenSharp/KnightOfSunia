@@ -18,7 +18,8 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    public static int health;
+    public static int health = 100;
+    public HealthBar healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +29,19 @@ public class Player : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         //animator.SetFloat("moveX", 0);
         //animator.SetFloat("moveY", -1);
+
+        healthBar.SetHealth(health);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space)) //test izbrisati
+        {
+            health -= 25;
+            healthBar.SetHealth(health);
+        }
+
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");

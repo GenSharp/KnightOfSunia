@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using TMPro;
 
-public class GameManager : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
 
-    public GameObject pause;
     private bool isPaused;
+    public GameObject pause;
     public bool usingPause;
-    public static GameManager instance;
 
     // Start is called before the first frame update
     void Start()
@@ -28,16 +25,6 @@ public class GameManager : MonoBehaviour
         {
             ChangePause();
         }
-    }
-
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("Level1");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
     }
 
     public void ChangePause()
