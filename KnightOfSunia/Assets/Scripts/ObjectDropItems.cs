@@ -42,8 +42,8 @@ public class ObjectDropItems : MonoBehaviour
                 int spawnAmount = Random.Range(loot.minQuantity, loot.maxQuantity);
                 for (int i = 0; i < spawnAmount; i++)
                 {
-                    GameObject currentDrop = Instantiate(loot.item, transform.position, transform.rotation * Quaternion.Euler(new Vector3(0, 0, Random.Range(transform.rotation.y - 40, transform.rotation.y + 40))));
-                    currentDrop.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(0, 10), ForceMode2D.Impulse);
+                    GameObject currentDrop = Instantiate(loot.item, transform.position, transform.rotation * Quaternion.identity);
+                    //currentDrop.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(0, 10), ForceMode2D.Impulse);
                 }
             }
         }
