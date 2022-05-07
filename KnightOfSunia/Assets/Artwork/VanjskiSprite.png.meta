@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,27 +107,19 @@ TextureImporter:
       name: VanjskiSprite_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 176
+        x: 0
+        y: 184
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afb59801e23558e4ea0ab7ef37d1fc25
-      internalID: 1426456873
+      spriteID: f2089eff93c5b7340be0e9f465687225
+      internalID: 534803820
       vertices: []
       indices: 
       edges: []
@@ -136,27 +128,19 @@ TextureImporter:
       name: VanjskiSprite_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 176
+        x: 16
+        y: 184
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ebe032758686a949a57efec5b95ac63
-      internalID: -625710896
+      spriteID: 9b96c9e0b36ca6c479459d17ff4aae03
+      internalID: -347448862
       vertices: []
       indices: 
       edges: []
@@ -165,27 +149,19 @@ TextureImporter:
       name: VanjskiSprite_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 176
+        x: 32
+        y: 184
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d22a39a878923f44981eadc13d431db
-      internalID: 614507830
+      spriteID: 29240babaeab9a44cb1d35eaf99eb9e4
+      internalID: -1139296365
       vertices: []
       indices: 
       edges: []
@@ -194,27 +170,19 @@ TextureImporter:
       name: VanjskiSprite_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 176
+        x: 32
+        y: 168
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccf0898d13297b941b6a0af3e1031079
-      internalID: -1284206266
+      spriteID: 951b6fa1cc36d6e43b27b383d42f3d4e
+      internalID: -690185213
       vertices: []
       indices: 
       edges: []
@@ -223,27 +191,19 @@ TextureImporter:
       name: VanjskiSprite_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 48
         y: 168
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf13412e56aeef47bdbf617de54aa14
-      internalID: 1532689483
+      spriteID: 1e18f677411f9c4408b63f64bc27b007
+      internalID: -526586326
       vertices: []
       indices: 
       edges: []
@@ -252,27 +212,19 @@ TextureImporter:
       name: VanjskiSprite_5
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 168
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebb1b6aed317a14eaf494e180f6274e
-      internalID: -1296623123
+      spriteID: 0a31043dda695eb47be398299de94ae3
+      internalID: -1992825505
       vertices: []
       indices: 
       edges: []
@@ -281,27 +233,19 @@ TextureImporter:
       name: VanjskiSprite_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 168
+        x: 32
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a69805b38be78548900f579fcb127f6
-      internalID: -1747976292
+      spriteID: 8bfa2624834966a48b90df01d49b0895
+      internalID: -762323915
       vertices: []
       indices: 
       edges: []
@@ -310,27 +254,19 @@ TextureImporter:
       name: VanjskiSprite_7
       rect:
         serializedVersion: 2
-        x: 24
-        y: 160
+        x: 48
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a3c360ba2794846a82f4f464eba6e0
-      internalID: 1236901942
+      spriteID: 178ec021d5dddc24cbcf342060d215b7
+      internalID: -498139734
       vertices: []
       indices: 
       edges: []
@@ -339,27 +275,19 @@ TextureImporter:
       name: VanjskiSprite_8
       rect:
         serializedVersion: 2
-        x: 40
-        y: 160
+        x: 64
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d77a9f212fd41419c98520a31c1c88
-      internalID: 2104898217
+      spriteID: d327e1b48bf6a034e8b9964836327eb2
+      internalID: -603558236
       vertices: []
       indices: 
       edges: []
@@ -368,27 +296,19 @@ TextureImporter:
       name: VanjskiSprite_9
       rect:
         serializedVersion: 2
-        x: 56
-        y: 160
+        x: 96
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3d932e3cde7934e9a3a06a706d6b52
-      internalID: -1154890058
+      spriteID: d108ed4ff69c8f341b4f527d1cb21d6e
+      internalID: -1874392542
       vertices: []
       indices: 
       edges: []
@@ -397,27 +317,19 @@ TextureImporter:
       name: VanjskiSprite_10
       rect:
         serializedVersion: 2
-        x: 72
-        y: 160
+        x: 112
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 250bd9e3a8976c4448bc97e9b05acd43
-      internalID: -2030497185
+      spriteID: a713aa98868548942aab304e8d2254e1
+      internalID: -1505271896
       vertices: []
       indices: 
       edges: []
@@ -426,27 +338,19 @@ TextureImporter:
       name: VanjskiSprite_11
       rect:
         serializedVersion: 2
-        x: 104
-        y: 160
+        x: 128
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 716ec3bbab625ce41b39a3874cbc2653
-      internalID: 1358913592
+      spriteID: b2859ddaa9986c0418fce13f29ccf225
+      internalID: -181554590
       vertices: []
       indices: 
       edges: []
@@ -455,27 +359,19 @@ TextureImporter:
       name: VanjskiSprite_12
       rect:
         serializedVersion: 2
-        x: 120
-        y: 160
+        x: 144
+        y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 976fe8ac27f621e4c818c407e4d18950
-      internalID: 906138997
+      spriteID: 0b5af3f11cf8bbf41aae7f95dd72e5b8
+      internalID: 1223133809
       vertices: []
       indices: 
       edges: []
@@ -484,27 +380,19 @@ TextureImporter:
       name: VanjskiSprite_13
       rect:
         serializedVersion: 2
-        x: 32
+        x: 160
         y: 152
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be5f94d548236c4d9dae0d96b303634
-      internalID: -721661805
+      spriteID: b25dbab60704afa4891b172190764d6d
+      internalID: -1116879290
       vertices: []
       indices: 
       edges: []
@@ -513,27 +401,19 @@ TextureImporter:
       name: VanjskiSprite_14
       rect:
         serializedVersion: 2
-        x: 48
-        y: 152
+        x: 32
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27df37b719f4c314daf2553b7edc6d59
-      internalID: -1703184915
+      spriteID: e8006a2939f80b446b4324c44e82a3cd
+      internalID: -2043607025
       vertices: []
       indices: 
       edges: []
@@ -542,27 +422,19 @@ TextureImporter:
       name: VanjskiSprite_15
       rect:
         serializedVersion: 2
-        x: 64
-        y: 152
+        x: 48
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0f93bc1163056478250a93fed23ba0
-      internalID: 513315046
+      spriteID: 18bd6bf4851ac7943a56ff023473fa38
+      internalID: -149544055
       vertices: []
       indices: 
       edges: []
@@ -571,27 +443,19 @@ TextureImporter:
       name: VanjskiSprite_16
       rect:
         serializedVersion: 2
-        x: 96
-        y: 152
+        x: 64
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dd0f0ce8969834eaafbf0cb1c44e64
-      internalID: -1643831650
+      spriteID: aed330e7160cbba46b454097141f706a
+      internalID: -1764360292
       vertices: []
       indices: 
       edges: []
@@ -600,27 +464,19 @@ TextureImporter:
       name: VanjskiSprite_17
       rect:
         serializedVersion: 2
-        x: 112
-        y: 152
+        x: 80
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b428d2f7c8b504e9a69a373eca7d05
-      internalID: -1330032345
+      spriteID: ecaacfd73d2cd6c489513519fdbb0541
+      internalID: -1454061190
       vertices: []
       indices: 
       edges: []
@@ -629,27 +485,19 @@ TextureImporter:
       name: VanjskiSprite_18
       rect:
         serializedVersion: 2
-        x: 128
-        y: 152
+        x: 96
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fd33562b7cc9e54c910e9031459fa7e
-      internalID: -1656988296
+      spriteID: 1da975e8c2478ab48a0130d47e90269c
+      internalID: -1897767626
       vertices: []
       indices: 
       edges: []
@@ -658,27 +506,19 @@ TextureImporter:
       name: VanjskiSprite_19
       rect:
         serializedVersion: 2
-        x: 160
-        y: 152
+        x: 112
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0eeec5b8be91e4db8d788a468264f6
-      internalID: -1306103418
+      spriteID: 7afaf2c16d91a8b43b1a92c209eff407
+      internalID: -597109854
       vertices: []
       indices: 
       edges: []
@@ -687,27 +527,19 @@ TextureImporter:
       name: VanjskiSprite_20
       rect:
         serializedVersion: 2
-        x: 24
-        y: 144
+        x: 128
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e49c3eca09cdb9743a4e91fbf07ab220
-      internalID: -1672762714
+      spriteID: 9a4268a49fe56ce4fba40723cb645e04
+      internalID: -563539877
       vertices: []
       indices: 
       edges: []
@@ -716,27 +548,19 @@ TextureImporter:
       name: VanjskiSprite_21
       rect:
         serializedVersion: 2
-        x: 40
-        y: 144
+        x: 144
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b46f44b1dc270994285acb3e5bc19e83
-      internalID: -2134950515
+      spriteID: 16bddb70e6f93644f93e93d1407fe0eb
+      internalID: -250502948
       vertices: []
       indices: 
       edges: []
@@ -745,27 +569,19 @@ TextureImporter:
       name: VanjskiSprite_22
       rect:
         serializedVersion: 2
-        x: 56
-        y: 144
+        x: 160
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5943842540ba7046901acba0af00e21
-      internalID: -1330116460
+      spriteID: d46744075b36daf428cfc3edc5deba34
+      internalID: -412336758
       vertices: []
       indices: 
       edges: []
@@ -774,27 +590,19 @@ TextureImporter:
       name: VanjskiSprite_23
       rect:
         serializedVersion: 2
-        x: 72
-        y: 144
+        x: 176
+        y: 136
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d3c4ac8d36f225468d8c21e37987e0a
-      internalID: 802484619
+      spriteID: 6f90906c26e4d894c9e8044b3195ea04
+      internalID: 2359331
       vertices: []
       indices: 
       edges: []
@@ -803,27 +611,19 @@ TextureImporter:
       name: VanjskiSprite_24
       rect:
         serializedVersion: 2
-        x: 88
-        y: 144
+        x: 96
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 527021229f6f2e74ab25463680a25666
-      internalID: -1064410094
+      spriteID: 2e8b098bcd162374cb60193662deedc7
+      internalID: -280343924
       vertices: []
       indices: 
       edges: []
@@ -832,27 +632,19 @@ TextureImporter:
       name: VanjskiSprite_25
       rect:
         serializedVersion: 2
-        x: 104
-        y: 144
+        x: 112
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a591544babf814543a5426ff37492f1b
-      internalID: -1927358116
+      spriteID: c3c73628600fbbe47809a57ae03aec44
+      internalID: -576317233
       vertices: []
       indices: 
       edges: []
@@ -861,27 +653,19 @@ TextureImporter:
       name: VanjskiSprite_26
       rect:
         serializedVersion: 2
-        x: 120
-        y: 144
+        x: 128
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c870f7c822428f41a1901085bba8f1d
-      internalID: -1351263155
+      spriteID: c6b33ee5cc713be41abc02e60bd80d2c
+      internalID: -547617235
       vertices: []
       indices: 
       edges: []
@@ -890,27 +674,19 @@ TextureImporter:
       name: VanjskiSprite_27
       rect:
         serializedVersion: 2
-        x: 136
-        y: 144
+        x: 144
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 024795a3cc877a540b49560824e97ff1
-      internalID: 1762430494
+      spriteID: 9d0a7db8d8346df449b097c1a1874337
+      internalID: 1491859158
       vertices: []
       indices: 
       edges: []
@@ -919,27 +695,19 @@ TextureImporter:
       name: VanjskiSprite_28
       rect:
         serializedVersion: 2
-        x: 152
-        y: 144
+        x: 160
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8803c96b7dd32a24f97e0f7bfb9c9d2e
-      internalID: 1759122051
+      spriteID: 08384f65a87ce5043a28bbdcb470bb50
+      internalID: -1842492058
       vertices: []
       indices: 
       edges: []
@@ -948,27 +716,19 @@ TextureImporter:
       name: VanjskiSprite_29
       rect:
         serializedVersion: 2
-        x: 168
-        y: 144
+        x: 176
+        y: 120
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b8a1f01a236fe47965ac132575e692
-      internalID: -1914216328
+      spriteID: 063faebe25e1bdd4181e54da39df2987
+      internalID: -1570761188
       vertices: []
       indices: 
       edges: []
@@ -977,27 +737,19 @@ TextureImporter:
       name: VanjskiSprite_30
       rect:
         serializedVersion: 2
-        x: 32
-        y: 136
+        x: 64
+        y: 104
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a46ffce1b5805b4b9667f9d489584f0
-      internalID: -461558996
+      spriteID: 8679de8e11eb55e4590bace131832312
+      internalID: 553732931
       vertices: []
       indices: 
       edges: []
@@ -1006,27 +758,19 @@ TextureImporter:
       name: VanjskiSprite_31
       rect:
         serializedVersion: 2
-        x: 48
-        y: 136
+        x: 80
+        y: 104
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 965a10ea1659db1428efe2e8d1b8b8c7
-      internalID: -807445645
+      spriteID: 19569c34bf0d71c4286116afa2747968
+      internalID: -1347833002
       vertices: []
       indices: 
       edges: []
@@ -1035,27 +779,19 @@ TextureImporter:
       name: VanjskiSprite_32
       rect:
         serializedVersion: 2
-        x: 64
-        y: 136
+        x: 96
+        y: 104
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98792ab76ebd1c448a585353cf4cbadc
-      internalID: 1667357103
+      spriteID: 189c1e5ab4f3b514ba07cbae31f449c0
+      internalID: 425605234
       vertices: []
       indices: 
       edges: []
@@ -1064,27 +800,19 @@ TextureImporter:
       name: VanjskiSprite_33
       rect:
         serializedVersion: 2
-        x: 80
-        y: 136
+        x: 112
+        y: 104
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c5347e7f51320643be25869e40d081f
-      internalID: 1652946712
+      spriteID: 31dc5a410628e60469ef172caeb00f6c
+      internalID: -676857741
       vertices: []
       indices: 
       edges: []
@@ -1093,27 +821,19 @@ TextureImporter:
       name: VanjskiSprite_34
       rect:
         serializedVersion: 2
-        x: 96
-        y: 136
+        x: 128
+        y: 104
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a153d6d06219a438b90cbac7bcc69a
-      internalID: 558954484
+      spriteID: 944b9582e22c31d42a3e190ceaa6ebe8
+      internalID: -1994348937
       vertices: []
       indices: 
       edges: []
@@ -1122,27 +842,19 @@ TextureImporter:
       name: VanjskiSprite_35
       rect:
         serializedVersion: 2
-        x: 112
-        y: 136
+        x: 128
+        y: 88
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d19bb10be19c8184ab54d3fba40eadf8
-      internalID: 290146119
+      spriteID: 88df9f2afb64d084abf65d0d6c5d0b58
+      internalID: -1567881125
       vertices: []
       indices: 
       edges: []
@@ -1151,27 +863,19 @@ TextureImporter:
       name: VanjskiSprite_36
       rect:
         serializedVersion: 2
-        x: 128
-        y: 136
+        x: 144
+        y: 88
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 672e7fb76b68a484bb953a384fe4d0ca
-      internalID: -499986557
+      spriteID: 59c942eebc17d174e9205e92f2ab890a
+      internalID: 81507635
       vertices: []
       indices: 
       edges: []
@@ -1180,27 +884,19 @@ TextureImporter:
       name: VanjskiSprite_37
       rect:
         serializedVersion: 2
-        x: 144
-        y: 136
+        x: 64
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5612058fa4903447a54dd32809593f1
-      internalID: 1508449288
+      spriteID: d4824a13121b4b347ae5245e62a6c2d9
+      internalID: 2003401829
       vertices: []
       indices: 
       edges: []
@@ -1209,27 +905,19 @@ TextureImporter:
       name: VanjskiSprite_38
       rect:
         serializedVersion: 2
-        x: 160
-        y: 136
+        x: 80
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c574362e6c60d294c90d266573aeb100
-      internalID: -911532335
+      spriteID: 312b16e4d6c43ed4189093d5524a43c1
+      internalID: -1304401646
       vertices: []
       indices: 
       edges: []
@@ -1238,27 +926,19 @@ TextureImporter:
       name: VanjskiSprite_39
       rect:
         serializedVersion: 2
-        x: 176
-        y: 136
+        x: 96
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6b278fa64a11e7489a560099032139c
-      internalID: 1730432108
+      spriteID: 99c72fb7039e8504c9b149016f60ec2c
+      internalID: -706268289
       vertices: []
       indices: 
       edges: []
@@ -1267,27 +947,19 @@ TextureImporter:
       name: VanjskiSprite_40
       rect:
         serializedVersion: 2
-        x: 24
-        y: 128
+        x: 128
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f505c720618b5e4c8bae3f0f3f625d5
-      internalID: -86314568
+      spriteID: be8a74bd411dec347b19d08efdb7998b
+      internalID: -1551091273
       vertices: []
       indices: 
       edges: []
@@ -1296,27 +968,19 @@ TextureImporter:
       name: VanjskiSprite_41
       rect:
         serializedVersion: 2
-        x: 40
-        y: 128
+        x: 144
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4f24d870717e140bc859ff8ba9e373
-      internalID: 604988953
+      spriteID: e0eb5b5e395f9b34ab121e8bbc391add
+      internalID: -460547500
       vertices: []
       indices: 
       edges: []
@@ -1325,27 +989,19 @@ TextureImporter:
       name: VanjskiSprite_42
       rect:
         serializedVersion: 2
-        x: 56
-        y: 128
+        x: 160
+        y: 72
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a487a6d1c071b9e49844a09d824f6cb7
-      internalID: 273654619
+      spriteID: 0a9e8ba69ccc69843a184827e193f989
+      internalID: -1033195168
       vertices: []
       indices: 
       edges: []
@@ -1354,27 +1010,19 @@ TextureImporter:
       name: VanjskiSprite_43
       rect:
         serializedVersion: 2
-        x: 72
-        y: 128
+        x: 64
+        y: 56
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b4f4d547d080249b8f5e1a8d6c3617
-      internalID: -453729032
+      spriteID: 2a1973105a4022141ae71553a02fb973
+      internalID: -1822684288
       vertices: []
       indices: 
       edges: []
@@ -1383,27 +1031,19 @@ TextureImporter:
       name: VanjskiSprite_44
       rect:
         serializedVersion: 2
-        x: 88
-        y: 128
+        x: 80
+        y: 56
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21e742533ac1e8c4cac91e08dfccc47c
-      internalID: 904931256
+      spriteID: 9157d73e1ed51934ca5a5c0ebd1d24bb
+      internalID: -1215809597
       vertices: []
       indices: 
       edges: []
@@ -1412,27 +1052,19 @@ TextureImporter:
       name: VanjskiSprite_45
       rect:
         serializedVersion: 2
-        x: 104
-        y: 128
+        x: 96
+        y: 56
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0851ec3449b459840bdfa1bf2dc7168f
-      internalID: 1986685430
+      spriteID: ecf00d5d51f4b1641b1eb3d496670e19
+      internalID: 38776023
       vertices: []
       indices: 
       edges: []
@@ -1441,27 +1073,19 @@ TextureImporter:
       name: VanjskiSprite_46
       rect:
         serializedVersion: 2
-        x: 120
-        y: 128
+        x: 64
+        y: 40
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1676239e274e0f9488f6740d59ab4e13
-      internalID: -83714870
+      spriteID: 2f8bf6094ff460a429d6dda24ba182ca
+      internalID: 1975911696
       vertices: []
       indices: 
       edges: []
@@ -1470,27 +1094,19 @@ TextureImporter:
       name: VanjskiSprite_47
       rect:
         serializedVersion: 2
-        x: 136
-        y: 128
+        x: 80
+        y: 40
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ca301cd7d5681245b6cfdebca8a0538
-      internalID: -27272071
+      spriteID: f0e8ba642df6216439f66252ca547451
+      internalID: -1628492710
       vertices: []
       indices: 
       edges: []
@@ -1499,1361 +1115,19 @@ TextureImporter:
       name: VanjskiSprite_48
       rect:
         serializedVersion: 2
-        x: 152
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc3482b4653fb054cbc938f972faa6ba
-      internalID: -2126823934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_49
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cc08bee7f4bc0a4a80dce9a4032954e
-      internalID: 75907094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_50
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3eedde7422fb0947aef888a6525d530
-      internalID: 1672450613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_51
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 447215310be15f84db7757d4f56d8ded
-      internalID: -616375958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_52
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ef1ba3508bd34d41bd3f387e6efc11d
-      internalID: -1334414763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_53
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fe18fe52e1ea3b45b2bf4ddc2cce1cd
-      internalID: 1681581046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_54
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e2aef89ad0371e4ca9dfa22123714b0
-      internalID: -1118132500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_55
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ca14286a226d7340a2024124b28ae2a
-      internalID: -521878665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_56
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ff0a84a4e5651c46ac7fe961511c301
-      internalID: -2005764564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_57
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c31473b4d44274349849650707387a53
-      internalID: -826270716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_58
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34cd95320b7371348ba0237e3ee682ef
-      internalID: 1899789908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_59
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a03bfb3f8c883994b9b77c2b44f26ed2
-      internalID: 195366465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_60
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5e94cc7a74777c4b92bb38a79dea84a
-      internalID: -1532568170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_61
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a661258ba5ede043a8f026d7780aae5
-      internalID: 796542718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_62
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: abfe874262923694f97e6f1d7b565e56
-      internalID: -978837720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_63
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38b1423f45f5f724f942cc40c2586a2a
-      internalID: -1166732284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_64
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c869e93ffee8d694981a02586160579f
-      internalID: 713268176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_65
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a13fab60fe268647ba7e302d740a897
-      internalID: -674759503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_66
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a98ebb22732efc1478b1142073aa7816
-      internalID: 727787353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_67
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 798325fa048816f40b0e46235188dead
-      internalID: 1618044486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_68
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00eefea484956e446bcfdf398bfa7e4d
-      internalID: -694334658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_69
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2cd8ee7e0b04394a8312c0b3a98b1fc
-      internalID: 1104517795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_70
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbc94dd35864b0d4f91f29fbfa95de00
-      internalID: -822938878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_71
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b0ef45030b8bd442b222f23662a300c
-      internalID: -1652002754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_72
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: f55fa962fae429b479efb7b803a27805
-      internalID: 2043306287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_73
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0196e43c59b11a840aae4d052d102a3e
-      internalID: 862036351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_74
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca2744e25f5d3384c9e7a397f902ead2
-      internalID: -1132026230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_75
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b1dedf68766be244af38b13333fc5dd
-      internalID: -1902787474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_76
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 734076759f81ed74d8f358dd45ea2f44
-      internalID: -527439601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_77
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25bb1523519232d4782d981e23a59083
-      internalID: 1454247062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_78
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9245adc164e5cac4c8311d6f8c22d3ac
-      internalID: 1798748727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_79
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 232b127dd417de242bc78d7a0f6914b8
-      internalID: -848063643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_80
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05fe091441ae0b7439c5153a958c531c
-      internalID: 1258617250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_81
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f55fb79e75b75e4fbf65636b6be5d4d
-      internalID: -1289033890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_82
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f98ad37d0328dc4ea06d941a54ea4ec
-      internalID: 229764457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_83
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8de0cdfb532f4d8439fb576429b7586f
-      internalID: 683117216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_84
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6add51e1abb456c4696d83063175600b
-      internalID: 1702486329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_85
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b932cc2f37cfa34fab94fe2fb0ada7e
-      internalID: -438460678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_86
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3690426a7558f5489ba36a2f53174a6
-      internalID: -2138980006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_87
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b52b67c48f59cc4ea56d186029ac25a
-      internalID: 1846516492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_88
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 914d0620067f37f4d9c2caf6c756eb4d
-      internalID: -1424498384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_89
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 036a28b7e8b66004e97b36fd0264a073
-      internalID: -822541512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_90
-      rect:
-        serializedVersion: 2
         x: 96
         y: 40
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5fcf09f28a382343a11f8749f9828a1
-      internalID: 736214792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_91
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 187679198a173ca4c8fbbb295b297f10
-      internalID: 1667937724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_92
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0c6c576bc4b8ae4f8402f0605449e63
-      internalID: 1780692750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_93
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8c9551ed9b883a43b28254fbc6c9148
-      internalID: 368469088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VanjskiSprite_94
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      physicsShape:
-      - - {x: 0, y: -8}
-        - {x: 8, y: 0}
-        - {x: 0, y: 8}
-        - {x: -8, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: ead5b927f0c164f4d8e52a7160696c6f
-      internalID: -122876306
+      spriteID: f2ca7f38257e4a541b7d7b309f1ff301
+      internalID: 1649623973
       vertices: []
       indices: 
       edges: []
@@ -2869,101 +1143,55 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      VanjskiSprite_22: -1330116460
-      VanjskiSprite_39: 1730432108
-      VanjskiSprite_41: 604988953
-      VanjskiSprite_38: -911532335
-      VanjskiSprite_82: 229764457
-      VanjskiSprite_0: 1426456873
-      VanjskiSprite_40: -86314568
-      VanjskiSprite_51: -616375958
-      VanjskiSprite_59: 195366465
-      VanjskiSprite_50: 1672450613
-      VanjskiSprite_32: 1667357103
-      VanjskiSprite_19: -1306103418
-      VanjskiSprite_25: -1927358116
-      VanjskiSprite_11: 1358913592
-      VanjskiSprite_17: -1330032345
-      VanjskiSprite_37: 1508449288
-      VanjskiSprite_14: -1703184915
-      VanjskiSprite_86: -2138980006
-      VanjskiSprite_63: -1166732284
-      VanjskiSprite_88: -1424498384
-      VanjskiSprite_66: 727787353
-      VanjskiSprite_16: -1643831650
-      VanjskiSprite_53: 1681581046
-      VanjskiSprite_20: -1672762714
-      VanjskiSprite_23: 802484619
-      VanjskiSprite_42: 273654619
-      VanjskiSprite_34: 558954484
-      VanjskiSprite_5: -1296623123
-      VanjskiSprite_85: -438460678
-      VanjskiSprite_44: 904931256
-      VanjskiSprite_21: -2134950515
-      VanjskiSprite_31: -807445645
-      VanjskiSprite_67: 1618044486
-      VanjskiSprite_13: -721661805
-      VanjskiSprite_62: -978837720
-      VanjskiSprite_29: -1914216328
-      VanjskiSprite_77: 1454247062
-      VanjskiSprite_6: -1747976292
-      VanjskiSprite_54: -1118132500
-      VanjskiSprite_48: -2126823934
-      VanjskiSprite_90: 736214792
-      VanjskiSprite_27: 1762430494
-      VanjskiSprite_26: -1351263155
-      VanjskiSprite_35: 290146119
-      VanjskiSprite_89: -822541512
-      VanjskiSprite_1: -625710896
-      VanjskiSprite_46: -83714870
-      VanjskiSprite_55: -521878665
-      VanjskiSprite_94: -122876306
-      VanjskiSprite_81: -1289033890
-      VanjskiSprite_87: 1846516492
-      VanjskiSprite_47: -27272071
-      VanjskiSprite_36: -499986557
-      VanjskiSprite_92: 1780692750
-      VanjskiSprite_72: 2043306287
-      VanjskiSprite_71: -1652002754
-      VanjskiSprite_64: 713268176
-      VanjskiSprite_43: -453729032
-      VanjskiSprite_4: 1532689483
-      VanjskiSprite_61: 796542718
-      VanjskiSprite_93: 368469088
-      VanjskiSprite_45: 1986685430
-      VanjskiSprite_7: 1236901942
-      VanjskiSprite_58: 1899789908
-      VanjskiSprite_60: -1532568170
-      VanjskiSprite_18: -1656988296
-      VanjskiSprite_49: 75907094
-      VanjskiSprite_65: -674759503
-      VanjskiSprite_70: -822938878
-      VanjskiSprite_57: -826270716
-      VanjskiSprite_83: 683117216
-      VanjskiSprite_24: -1064410094
-      VanjskiSprite_28: 1759122051
-      VanjskiSprite_56: -2005764564
-      VanjskiSprite_68: -694334658
-      VanjskiSprite_91: 1667937724
-      VanjskiSprite_3: -1284206266
-      VanjskiSprite_76: -527439601
-      VanjskiSprite_74: -1132026230
-      VanjskiSprite_80: 1258617250
-      VanjskiSprite_73: 862036351
-      VanjskiSprite_78: 1798748727
-      VanjskiSprite_2: 614507830
-      VanjskiSprite_8: 2104898217
-      VanjskiSprite_75: -1902787474
-      VanjskiSprite_84: 1702486329
-      VanjskiSprite_12: 906138997
-      VanjskiSprite_69: 1104517795
-      VanjskiSprite_15: 513315046
-      VanjskiSprite_10: -2030497185
-      VanjskiSprite_52: -1334414763
-      VanjskiSprite_79: -848063643
-      VanjskiSprite_30: -461558996
-      VanjskiSprite_33: 1652946712
-      VanjskiSprite_9: -1154890058
+      VanjskiSprite_22: -412336758
+      VanjskiSprite_46: 1975911696
+      VanjskiSprite_39: -706268289
+      VanjskiSprite_41: -460547500
+      VanjskiSprite_38: -1304401646
+      VanjskiSprite_0: 534803820
+      VanjskiSprite_40: -1551091273
+      VanjskiSprite_36: 81507635
+      VanjskiSprite_47: -1628492710
+      VanjskiSprite_43: -1822684288
+      VanjskiSprite_4: -526586326
+      VanjskiSprite_32: 425605234
+      VanjskiSprite_19: -597109854
+      VanjskiSprite_25: -576317233
+      VanjskiSprite_45: 38776023
+      VanjskiSprite_7: -498139734
+      VanjskiSprite_11: -181554590
+      VanjskiSprite_17: -1454061190
+      VanjskiSprite_37: 2003401829
+      VanjskiSprite_18: -1897767626
+      VanjskiSprite_14: -2043607025
+      VanjskiSprite_16: -1764360292
+      VanjskiSprite_24: -280343924
+      VanjskiSprite_28: -1842492058
+      VanjskiSprite_20: -563539877
+      VanjskiSprite_23: 2359331
+      VanjskiSprite_42: -1033195168
+      VanjskiSprite_3: -690185213
+      VanjskiSprite_34: -1994348937
+      VanjskiSprite_5: -1992825505
+      VanjskiSprite_44: -1215809597
+      VanjskiSprite_2: -1139296365
+      VanjskiSprite_21: -250502948
+      VanjskiSprite_8: -603558236
+      VanjskiSprite_31: -1347833002
+      VanjskiSprite_13: -1116879290
+      VanjskiSprite_12: 1223133809
+      VanjskiSprite_29: -1570761188
+      VanjskiSprite_6: -762323915
+      VanjskiSprite_15: -149544055
+      VanjskiSprite_48: 1649623973
+      VanjskiSprite_10: -1505271896
+      VanjskiSprite_30: 553732931
+      VanjskiSprite_33: -676857741
+      VanjskiSprite_9: -1874392542
+      VanjskiSprite_26: -547617235
+      VanjskiSprite_27: 1491859158
+      VanjskiSprite_35: -1567881125
+      VanjskiSprite_1: -347448862
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

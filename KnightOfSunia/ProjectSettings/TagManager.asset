@@ -39,6 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: tilemap
+    uniqueID: 4137558233
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: detalji
+    uniqueID: 2121305855
+    locked: 0
+  - name: player
+    uniqueID: 315674131
+    locked: 0
+  - name: "kro\u0161nja"
+    uniqueID: 1984050015
     locked: 0
