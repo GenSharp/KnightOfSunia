@@ -21,8 +21,8 @@ public class Chest : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isCollision)
         {
-            //animator.SetInteger("ChestAnim", 1);
-            var obj = Instantiate(loot, new Vector3(transform.position.x, transform.position.y + 1, 0), Quaternion.identity) as GameObject;
+            animator.SetInteger("ChestAnim", 1);
+            var obj = Instantiate(loot, new Vector3(transform.position.x, transform.position.y - 1, 0), Quaternion.identity) as GameObject;
             isCollision = false;
             isOpen = true;
         }

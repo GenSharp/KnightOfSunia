@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class HealthPotion : Player
+public class HealthPotion : MonoBehaviour
 {
+
+    public Player playerHealth;
+    public HealthBar healthBar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +25,9 @@ public class HealthPotion : Player
     {
         if (collision.gameObject.tag == "Player")
         {
-            Player.health += 25;
+            playerHealth.health += 25;
+            //Player.health += 25;
+            Destroy(gameObject);
         }
     }
 }
