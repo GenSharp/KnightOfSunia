@@ -7,6 +7,7 @@ public class HealthBar : MonoBehaviour
 {
 
     public Slider slider;
+    public Player playerHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,12 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SetHealth(int health)
     {
-        slider.value = health;
+        slider.value = playerHealth.health;
+        //slider.value = health;
     }
 }

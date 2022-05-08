@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    public static int health = 100;
+    public int health = 100;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
