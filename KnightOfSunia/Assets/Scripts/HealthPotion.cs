@@ -24,7 +24,7 @@ public class HealthPotion : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Player.health += 25;
+            Player.currentHealth += 25;
             Destroy(gameObject);
         }
     }

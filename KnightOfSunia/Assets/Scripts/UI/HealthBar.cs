@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
 
-    public static Slider slider;
-    public Player playerHealth;
+    public Slider slider;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +20,14 @@ public class HealthBar : MonoBehaviour
 
     }
 
-    public void SetHealth()
+    public void SetMaxHealth(int health)
     {
-        slider.value = Player.health;
-        //slider.value = health;
+        slider.maxValue = health;
+        slider.value = health;
+    }
+
+    public void SetHealth(int health)
+    {
+        slider.value = health;
     }
 }

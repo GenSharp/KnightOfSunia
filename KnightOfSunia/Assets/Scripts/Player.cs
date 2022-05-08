@@ -20,7 +20,8 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    public static int health = 100;
+    public static int maxHealth = 100;
+    public static int currentHealth;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -32,17 +33,18 @@ public class Player : MonoBehaviour
         //animator.SetFloat("moveX", 0);
         //animator.SetFloat("moveY", -1);
 
-        healthBar.SetHealth();
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Space)) //test izbrisati
-        //{
-        //    health -= 25;
-        //    healthBar.SetHealth(health);
-        //}
+        if (Input.GetKeyDown(KeyCode.J)) //test izbrisati
+        {
+            currentHealth -= 25;
+            healthBar.SetHealth(currentHealth);
+        }
 
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
