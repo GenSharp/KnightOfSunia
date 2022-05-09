@@ -201,7 +201,7 @@ MonoBehaviour:
   enemyName: Gobo the Goblin
   baseAttack: 1
   moveSpeed: 1.5
-  target: {fileID: 0}
+  target: {fileID: 1526922181816789012, guid: 3087a0ca328821243b60877dc653ba33, type: 3}
   chaseRadius: 4
   attackRadius: 1.2
   homePosition: {fileID: 0}

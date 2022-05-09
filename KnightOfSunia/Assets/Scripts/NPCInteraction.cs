@@ -61,14 +61,14 @@ public class NPCInteraction : MonoBehaviour
 
     public void Odg1()
     {
-        tekstOdNpca.text = "I want you to collect 5 golden coins for my collection. I will pay you well.";
+        tekstOdNpca.text = "I want you to collect 5 axes that have been stolen from me. I will pay you well.";
         odg2.SetActive(true);
         odg1.SetActive(false);
     }
 
     public void Odg2()
     {
-        tekstOdNpca.text = "You will get your reward once you come back with my 5 coins.";
+        tekstOdNpca.text = "You will get your reward once you come back with my 5 axes.";
         odg2.SetActive(false);
         quest.SetActive(true);
         questItem.SetActive(true);

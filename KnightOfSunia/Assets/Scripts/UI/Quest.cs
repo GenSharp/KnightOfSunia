@@ -19,6 +19,6 @@ public class Quest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "Coins: " + questCounter + "/5";
+        text.text = "Axes: " + questCounter + "/5";
     }
 }

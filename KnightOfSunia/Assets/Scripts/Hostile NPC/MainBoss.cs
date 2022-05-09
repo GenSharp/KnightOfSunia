@@ -9,6 +9,7 @@ public class MainBoss : MonoBehaviour
     public bool cooldown;
     public GameObject gobo;
     public int goblinspawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +23,11 @@ public class MainBoss : MonoBehaviour
         {
             StartCoroutine(spawn());
         }
-        if(goblinspawn>=25)
+        if(goblinspawn >= 25)
         {
             Destroy(gameObject);
         }
-
-
     }
-
 
     public IEnumerator spawn()
     {
@@ -38,24 +36,5 @@ public class MainBoss : MonoBehaviour
         yield return new WaitForSeconds(Cooldown);
         cooldown = true;
         goblinspawn = goblinspawn + 1;
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
