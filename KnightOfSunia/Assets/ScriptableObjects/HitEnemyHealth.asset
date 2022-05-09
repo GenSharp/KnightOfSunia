@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82fdc8c41b796be4e9944c9fbf49be83, type: 3}
   m_Name: HitEnemyHealth
   m_EditorClassIdentifier: 
-  initialValue: 1
+  initialValue: 10
