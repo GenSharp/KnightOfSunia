@@ -16,7 +16,7 @@ public class ObjectDropItems : MonoBehaviour
 {
 
     public Loot[] loots;
-    Enemy enemyHealth;
+    public Enemy enemyHealth;
 
     // Start is called before the first frame update
     void Start()

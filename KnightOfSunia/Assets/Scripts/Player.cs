@@ -30,8 +30,8 @@ public class Player : MonoBehaviour
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        //animator.SetFloat("moveX", 0);
-        //animator.SetFloat("moveY", -1);
+        animator.SetFloat("moveX", 0);
+        animator.SetFloat("moveY", -1);
 
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(AttackCo());
         }
-        else if (currentState == PlayerState.walk)
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
@@ -102,6 +102,7 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(knockTime);
             myRigidbody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
+            myRigidbody.velocity = Vector2.zero; //mozda ne treba
         }
     }
 }

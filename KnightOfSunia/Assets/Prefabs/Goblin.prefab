@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2308753340354422963}
   - component: {fileID: 2308753340354422964}
   - component: {fileID: 2308753340354422927}
+  - component: {fileID: 3001751632132369221}
   - component: {fileID: 2308753340354422960}
   - component: {fileID: 2308753340354422961}
   - component: {fileID: 2308753340354422926}
@@ -135,6 +136,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.37731576, y: 0.15698117}
   m_EdgeRadius: 0
+--- !u!61 &3001751632132369221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2308753340354422965}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4375, y: 0.5}
+    newSize: {x: 0.4375, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4375, y: 0.5}
+  m_EdgeRadius: 0
 --- !u!50 &2308753340354422960
 Rigidbody2D:
   serializedVersion: 4
@@ -169,7 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 2
+  maxHealth: {fileID: 11400000, guid: 75016808149e6ab418d65da7bde0d506, type: 2}
+  health: 50
   enemyName: Gobo the Goblin
   baseAttack: 1
   moveSpeed: 1.5
@@ -190,5 +218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5942bd19d17f5343bff50053a7d9939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 1
+  thrust: 4
+  knockTime: 0.2
+  damage: 0
