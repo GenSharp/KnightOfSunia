@@ -20,8 +20,8 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    public static int maxHealth = 100;
-    public static int currentHealth;
+    //public static int maxHealth = 100;
+    public static int health = 10;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -33,8 +33,8 @@ public class Player : MonoBehaviour
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
 
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        //currentHealth = maxHealth;
+        //healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -42,8 +42,8 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J)) //test izbrisati
         {
-            currentHealth -= 25;
-            healthBar.SetHealth(currentHealth);
+            health -= 25;
+            healthBar.SetHealth(health);
         }
 
         change = Vector3.zero;
@@ -92,7 +92,7 @@ public class Player : MonoBehaviour
 
     public void Knock(float knockTime)
     {
-        StartCoroutine(KnockCo(knockTime));
+            StartCoroutine(KnockCo(knockTime));
     }
 
     private IEnumerator KnockCo(float knockTime)
@@ -103,6 +103,15 @@ public class Player : MonoBehaviour
             myRigidbody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
             myRigidbody.velocity = Vector2.zero; //mozda ne treba
+        }
+    }
+
+    private void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }

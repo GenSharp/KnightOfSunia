@@ -13,7 +13,7 @@ public class NPCInteraction : MonoBehaviour
     public GameObject zavrKonv;
     public GameObject npcInteraction;
     public GameObject quest;
-    public GameObject coin;
+    public GameObject questItem;
     bool isCollision = false;
     bool doneQuest = false;
 
@@ -29,7 +29,7 @@ public class NPCInteraction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.questCounter == 0)
         {
             npcInteraction.SetActive(true);
-            tekstOdNpca.text = "Hello there, my name is Joe, I have a task for you.";
+            tekstOdNpca.text = "Hello there, my name is Matej, would you like to help me out with something?";
         }
 
         else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.questCounter == 5)
@@ -71,7 +71,7 @@ public class NPCInteraction : MonoBehaviour
         tekstOdNpca.text = "You will get your reward once you come back with my 5 coins.";
         odg2.SetActive(false);
         quest.SetActive(true);
-        coin.SetActive(true);
+        questItem.SetActive(true);
     }
 
     public void ZavrKonv()

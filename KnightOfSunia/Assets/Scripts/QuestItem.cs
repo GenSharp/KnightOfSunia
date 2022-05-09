@@ -1,16 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using TMPro;
 
-public class GameManager : MonoBehaviour
+public class QuestItem : MonoBehaviour
 {
-
-    public static GameManager instance;
-    public string sceneName;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,21 +16,12 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("Level1");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(sceneName);
+            Quest.questCounter += 1;
+            Destroy(gameObject);
         }
     }
 }
