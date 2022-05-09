@@ -6,7 +6,9 @@ public enum PlayerState
 {
     walk,
     attack,
-    interact
+    interact,
+    stagger, 
+    idle
 }
 
 public class Player : MonoBehaviour
@@ -18,7 +20,8 @@ public class Player : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    public int health = 100;
+    public static int maxHealth = 100;
+    public static int currentHealth;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -27,29 +30,30 @@ public class Player : MonoBehaviour
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        //animator.SetFloat("moveX", 0);
-        //animator.SetFloat("moveY", -1);
+        animator.SetFloat("moveX", 0);
+        animator.SetFloat("moveY", -1);
 
-        healthBar.SetHealth(health);
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) //test izbrisati
+        if (Input.GetKeyDown(KeyCode.J)) //test izbrisati
         {
-            health -= 25;
-            healthBar.SetHealth(health);
+            currentHealth -= 25;
+            healthBar.SetHealth(currentHealth);
         }
 
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetKeyDown(KeyCode.Space) && currentState != PlayerState.attack)
+        if (Input.GetKeyDown(KeyCode.Space) && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }
-        else if (currentState == PlayerState.walk)
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
@@ -57,11 +61,11 @@ public class Player : MonoBehaviour
 
     private IEnumerator AttackCo()
     {
-        //animator.SetBool("attacking", true);
+        animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
-        yield return null;
-        //animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.1f);
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.01f);
         currentState = PlayerState.walk;
     }
 
@@ -84,5 +88,21 @@ public class Player : MonoBehaviour
     {
         change.Normalize();
         myRigidbody.MovePosition(transform.position + change * speed * Time.fixedDeltaTime);
+    }
+
+    public void Knock(float knockTime)
+    {
+        StartCoroutine(KnockCo(knockTime));
+    }
+
+    private IEnumerator KnockCo(float knockTime)
+    {
+        if (myRigidbody != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            myRigidbody.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+            myRigidbody.velocity = Vector2.zero; //mozda ne treba
+        }
     }
 }

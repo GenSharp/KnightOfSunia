@@ -9,7 +9,7 @@ public class MainBoss : MonoBehaviour
     public GameObject spawnEnemy;
     public GameObject spawnLeuone;
     public float spawningDelay;
-    public bool canSpawn;
+    public bool canSpawn = true;
     public bool canSpawnLeuone = false;
     public Animator anim;
 
@@ -22,7 +22,7 @@ public class MainBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canSpawn == true)
+        if (canSpawn)
         {
             StartCoroutine(Spawn());
         }

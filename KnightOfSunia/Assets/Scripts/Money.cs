@@ -4,21 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Quest : MonoBehaviour
+public class Money : MonoBehaviour
 {
 
-    TMP_Text text;
-    public static int questCounter = 0;
+    public static int money = 0;
+    TextMeshProUGUI text;
 
     // Start is called before the first frame update
     void Start()
     {
-        text = GetComponent<TMP_Text>();
+        text = GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = "Coins: " + questCounter + "/5";
+        text.text = "Money: " + money + "g";
     }
 }

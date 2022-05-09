@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class HealthPotion : MonoBehaviour
 {
 
-    public Player playerHealth;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -25,8 +24,7 @@ public class HealthPotion : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            playerHealth.health += 25;
-            //Player.health += 25;
+            Player.currentHealth += 25;
             Destroy(gameObject);
         }
     }
