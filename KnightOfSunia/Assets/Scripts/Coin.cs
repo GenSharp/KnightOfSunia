@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        value = Random.Range(0, 50);
+        value = Random.Range(1, 50);
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //Money.money += value;
+            Money.money += value;
             isPickuUp = true;
             Destroy(gameObject);
         }

@@ -16,6 +16,7 @@ public class ObjectDropItems : MonoBehaviour
 {
 
     public Loot[] loots;
+    Enemy enemyHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class ObjectDropItems : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)) //samo test
+        if (enemyHealth.health <= 0) //treba vidit jel radi
         {
             DropItem();
         }

@@ -26,18 +26,18 @@ public class NPCInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 0)
+        if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.questCounter == 0)
         {
             npcInteraction.SetActive(true);
             tekstOdNpca.text = "Hello there, my name is Joe, I have a task for you.";
         }
 
-        else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 5)
+        else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.questCounter == 5)
         {
             npcInteraction.SetActive(true);
             quest.SetActive(false);
-            tekstOdNpca.text = "Thank you very much! Here you go, a 100g.";
-            //Novac.novac += 100;
+            tekstOdNpca.text = "Thank you very much! Here you go, a 100 gold.";
+            Money.money += 100;
             doneQuest = true;
         }
     }
