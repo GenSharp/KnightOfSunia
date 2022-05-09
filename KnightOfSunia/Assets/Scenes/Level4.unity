@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 53516814}
   - component: {fileID: 53516813}
   - component: {fileID: 53516812}
-  - component: {fileID: 53516811}
+  - component: {fileID: 53516816}
   m_Layer: 0
   m_Name: Martan
   m_TagString: Untagged
@@ -190,25 +190,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &53516811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53516810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73f81040690377a4a9474a639ea9d411, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  spawnEnemy: {fileID: 2308753340354422965, guid: 16cb080ba2501da43a2bd4e04add56d3, type: 3}
-  spawnLeuone: {fileID: 0}
-  spawningDelay: 2
-  canSpawn: 0
-  canSpawnLeuone: 0
-  anim: {fileID: 53516813}
 --- !u!61 &53516812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -322,6 +303,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &53516816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53516810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f81040690377a4a9474a639ea9d411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  Cooldown: 0
+  cooldown: 0
+  gobo: {fileID: 0}
 --- !u!1 &445209541
 GameObject:
   m_ObjectHideFlags: 0
